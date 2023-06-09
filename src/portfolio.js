@@ -21,13 +21,12 @@ const seo = {
 const greeting = {
   title: "Abinash Bordoloi",
   logo_name: "Abinash",
-  nickname: "I don't have one",
+  // nickname:,
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  resumeLink:"https://drive.google.com/file/d/1FveavQsnsMPtUtSTe8s0FzTlSNeKVMrM/view?usp=drive_link",
+  // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  githubProfile: "https://github.com/Abinash-bordoloi07",  
 };
 
 const socialMediaLinks = [
@@ -42,43 +41,38 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/Abinash-bordoloi07",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/abinash-bordoloi/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
+    link: "https://www.youtube.com/channel/UC3UCJXwMRHLbE-sPtr8i5PQ",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto: abinashbordoloi07@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/abinash_47712",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
+  
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/abinash_bordoloi07/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -117,6 +111,18 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
+
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+          style: {
+            backgroundColor: "transparent",
+            color: "#150458",
+          },
+        },
+
+
+
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
@@ -135,9 +141,15 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Proficient in front-end technologies (HTML, CSS, JavaScript) for creating user-friendly interfaces.",
+        "⚡ Developing mobile applications using Flutter, React Native.",
+        "⚡ Skilled in back-end technologies (server-side languages, frameworks) for building robust and scalable server logic.",
+        "⚡ Developing mobile applications using Flutter, React Native.",
+        "⚡ Creating application backend in Node, Express, Django, FastAPI & Flask",
+        "⚡ Managing databases such as MongoDB, Postgres, MySQL, SQLite",
+        "⚡ Integrating third party services such as Firebase/ AWS",
+
+
       ],
       softwareSkills: [
         {
@@ -154,13 +166,7 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
+
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -169,6 +175,36 @@ const skills = {
             color: "#F7DF1E",
           },
         },
+
+       
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#092E20",
+          },
+        },
+
+        {skillName: "Flask",
+        fontAwesomeClassname: "simple-icons:flask",
+        style: {  
+          
+          color: "#000000",
+        },
+      },
+        
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: {
+            
+            color: "#00796B",
+          },
+        },
+
+
+
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -190,20 +226,7 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
+      
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
@@ -211,16 +234,56 @@ const skills = {
             color: "#02569B",
           },
         },
+
+          {skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#000000",
+          },
+        },
+
+          {
+            skillName: "Firebase",
+            fontAwesomeClassname: "simple-icons:firebase",
+            style: {
+              color: "#FFCA28",
+            },
+          },
+          {
+            skillName: "PostgreSQL",
+            fontAwesomeClassname: "simple-icons:postgresql",
+            style: {
+              color: "#336791",
+            },
+          },
+          {
+            skillName: "MongoDB",
+            fontAwesomeClassname: "simple-icons:mongodb",
+            style: {
+              color: "#47A248",
+            },
+          },
+          {
+            skillName: "Docker",
+            fontAwesomeClassname: "simple-icons:docker",
+            style: {
+              color: "#1488C6",
+            },
+          },
+        
+
+
+      
       ],
     },
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Proficient in working with leading cloud platforms such as AWS, Azure, or Google Cloud, with a deep understanding of their core services, infrastructure, and deployment models.",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Deploying deep learning models and machine learning moedels on cloud.",
+        "⚡ Cloud Architecture and Scalability: Skilled in designing and implementing scalable and resilient cloud architectures.",
       ],
       softwareSkills: [
         {
@@ -244,34 +307,7 @@ const skills = {
             color: "#0089D6",
           },
         },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
+
         {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
@@ -380,15 +416,15 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
+      title: "Gauahti Univeristy Institute of Science and Technology",
       subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      logo_path: "GUIST_logo.png",
+      alt_name: "GUIST Gauhati University",
+      duration: "2020 - 2024",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        
       ],
       website_link: "http://iiitk.ac.in",
     },
