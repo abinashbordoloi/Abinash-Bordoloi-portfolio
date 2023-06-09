@@ -340,13 +340,15 @@ const skills = {
             color: "#F24E1E",
           },
         },
+
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Canva",
+          fontAwesomeClassname: "simple-icons:canva",
           style: {
-            color: "#FF7C00",
+            color: "#000000",
           },
         },
+        
         {
           skillName: "Inkscape",
           fontAwesomeClassname: "simple-icons:inkscape",
@@ -370,14 +372,7 @@ const competitiveSites = {
       },
       profileLink: "https://leetcode.com/layman_brother/",
     },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
+
     {
       siteName: "Codechef",
       iconifyClassname: "simple-icons:codechef",
@@ -386,6 +381,27 @@ const competitiveSites = {
       },
       profileLink: "https://www.codechef.com/users/ashutosh_1919",
     },
+
+
+
+    {
+      siteName: "HackerRank",
+      iconifyClassname: "simple-icons:hackerrank",
+      style: {
+        color: "#2EC866",
+      },
+      profileLink: "https://www.hackerrank.com/layman_brother",
+    },
+    
+    {
+      siteName: "GeeksforGeeks",
+      iconifyClassname: "simple-icons:geeksforgeeks",
+      style: {
+        color: "#0F9D58",
+      },
+      profileLink: "https://auth.geeksforgeeks.org/user/iteratexpseudocode/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user",
+    },
+
     {
       siteName: "Codeforces",
       iconifyClassname: "simple-icons:codeforces",
@@ -422,39 +438,52 @@ const degrees = {
       alt_name: "GUIST Gauhati University",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ I have studied basic software engineering subjects like DS, Algorithms, Engineering Mathematics, DBMS, OS, CA, AIm ML etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ Also done projects and interships for the course credits.",
+
+
+
+
         
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://gauhati.ac.in/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Indian Institute of Technology",
+      subtitle: "B.S. in Data Science and Applications",
+      logo_path: "iitm_logo.png",
+      alt_name: "IITM",
+      duration: "2021 - 2025",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I have studied core subjects like Data Structures, Object Oriented Programming, Database Management System, Data Mining, Data Warehousing, Data Analytics, Machine Learning, Deep Learning, Big Data, Cloud Computing, Statistics etc.",
+        "⚡ I have taken varity of courses related to Artificial Intelligence and Data Science which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        "⚡ I have also done courses on Full Stack Development which includes HTML, CSS, JavaScript, React, Node, Express, MongoDB etc.",
+        "⚡ I with projetcs and interships for the course credits.",
+
+
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://study.iitm.ac.in/ds/",
     },
+  
+
   ],
 };
 
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "AI Programming with Python Nenodegree",
+      subtitle: "Udacity",
+      logo_path: "udacity_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+        "https://graduation.udacity.com/confirm/VR4Y3PUG",
+     alt_name: "Udacity",
+     color_code: "#ffffff",
     },
+
+
+    // https://storage.googleapis.com/online-degree-app-production-documents/CERTIFICATE/FOUNDATION_CERTIFICATE/F2_2022/917c7068c2503b4804168f55d05cd1053f50809c5f1c6baff01b7b5b81d7d7d3.pdf?Expires=1686355414&GoogleAccessId=production-document-storage-si%40online-degree-app.iam.gserviceaccount.com&Signature=PECGaaduHMCDy57W1vMpxXgXi8VX%2Bv2HQjV9LvzKTHsIRA5dJzE5Q9ZuRx951GgNxVBP%2FwlD4x%2BgNndp9zzVQ6lqL2a0Omnd4KYUU5IWVQ%2BaFlQLsGvi4Nuzye9nIjoJIUbAOHEBfoqTLx6EAAp0NFF7T8nSQcaxQAWHtkdLwo%2FT0%2BJLPIaM9JOQV5HJYKF8fEu2cQjBBTKYXxg8ImUqz1tZ573TSTck5BhUwtnNnGaXhzuIBfrzN3WEDVbUF5FNCL%2BLLfFdRZXv63yoIFGItOCRGfbAJNVJPw2gZ3jN4GIH8kBnnaEmgPogh2CK5pY1r4KuTvuy1xOny0MvdJAyCw%3D%3D
     {
       title: "Deep Learning",
       subtitle: "- Andrew Ng",
