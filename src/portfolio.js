@@ -24,9 +24,10 @@ const greeting = {
   // nickname:,
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:"https://drive.google.com/file/d/1FveavQsnsMPtUtSTe8s0FzTlSNeKVMrM/view?usp=drive_link",
+  resumeLink:
+    "https://drive.google.com/file/d/1FveavQsnsMPtUtSTe8s0FzTlSNeKVMrM/view?usp=drive_link",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/Abinash-bordoloi07",  
+  githubProfile: "https://github.com/Abinash-bordoloi07",
 };
 
 const socialMediaLinks = [
@@ -69,7 +70,7 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
-  
+
   {
     name: "Instagram",
     link: "https://www.instagram.com/abinash_bordoloi07/",
@@ -121,8 +122,6 @@ const skills = {
           },
         },
 
-
-
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
@@ -148,8 +147,6 @@ const skills = {
         "⚡ Creating application backend in Node, Express, Django, FastAPI & Flask",
         "⚡ Managing databases such as MongoDB, Postgres, MySQL, SQLite",
         "⚡ Integrating third party services such as Firebase/ AWS",
-
-
       ],
       softwareSkills: [
         {
@@ -176,7 +173,6 @@ const skills = {
           },
         },
 
-       
         {
           skillName: "Django",
           fontAwesomeClassname: "simple-icons:django",
@@ -185,25 +181,21 @@ const skills = {
           },
         },
 
-        {skillName: "Flask",
-        fontAwesomeClassname: "simple-icons:flask",
-        style: {  
-          
-          color: "#000000",
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
+          style: {
+            color: "#000000",
+          },
         },
-      },
-        
+
         {
           skillName: "FastAPI",
           fontAwesomeClassname: "simple-icons:fastapi",
           style: {
-            
             color: "#00796B",
           },
         },
-
-
-
 
         {
           skillName: "ReactJS",
@@ -226,7 +218,7 @@ const skills = {
             color: "#CB3837",
           },
         },
-      
+
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
@@ -235,45 +227,42 @@ const skills = {
           },
         },
 
-          {skillName: "MySQL",
+        {
+          skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
             color: "#000000",
           },
         },
 
-          {
-            skillName: "Firebase",
-            fontAwesomeClassname: "simple-icons:firebase",
-            style: {
-              color: "#FFCA28",
-            },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
           },
-          {
-            skillName: "PostgreSQL",
-            fontAwesomeClassname: "simple-icons:postgresql",
-            style: {
-              color: "#336791",
-            },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
           },
-          {
-            skillName: "MongoDB",
-            fontAwesomeClassname: "simple-icons:mongodb",
-            style: {
-              color: "#47A248",
-            },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
           },
-          {
-            skillName: "Docker",
-            fontAwesomeClassname: "simple-icons:docker",
-            style: {
-              color: "#1488C6",
-            },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
           },
-        
-
-
-      
+        },
       ],
     },
     {
@@ -340,13 +329,15 @@ const skills = {
             color: "#F24E1E",
           },
         },
+
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Canva",
+          fontAwesomeClassname: "simple-icons:canva",
           style: {
-            color: "#FF7C00",
+            color: "#000000",
           },
         },
+
         {
           skillName: "Inkscape",
           fontAwesomeClassname: "simple-icons:inkscape",
@@ -370,14 +361,7 @@ const competitiveSites = {
       },
       profileLink: "https://leetcode.com/layman_brother/",
     },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
+
     {
       siteName: "Codechef",
       iconifyClassname: "simple-icons:codechef",
@@ -386,6 +370,26 @@ const competitiveSites = {
       },
       profileLink: "https://www.codechef.com/users/ashutosh_1919",
     },
+
+    {
+      siteName: "HackerRank",
+      iconifyClassname: "simple-icons:hackerrank",
+      style: {
+        color: "#2EC866",
+      },
+      profileLink: "https://www.hackerrank.com/layman_brother",
+    },
+
+    {
+      siteName: "GeeksforGeeks",
+      iconifyClassname: "simple-icons:geeksforgeeks",
+      style: {
+        color: "#0F9D58",
+      },
+      profileLink:
+        "https://auth.geeksforgeeks.org/user/iteratexpseudocode/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user",
+    },
+
     {
       siteName: "Codeforces",
       iconifyClassname: "simple-icons:codeforces",
@@ -422,24 +426,25 @@ const degrees = {
       alt_name: "GUIST Gauhati University",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ I have studied basic software engineering subjects like DS, Algorithms, Engineering Mathematics, DBMS, OS, CA, AIm ML etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        
+        "⚡ Also done projects and interships for the course credits.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://gauhati.ac.in/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Indian Institute of Technology",
+      subtitle: "B.S. in Data Science and Applications",
+      logo_path: "iitm_logo.png",
+      alt_name: "IITM",
+      duration: "2021 - 2025",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I have studied core subjects like Data Structures, Object Oriented Programming, Database Management System, Data Mining, Data Warehousing, Data Analytics, Machine Learning, Deep Learning, Big Data, Cloud Computing, Statistics etc.",
+        "⚡ I have taken varity of courses related to Artificial Intelligence and Data Science which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        "⚡ I have also done courses on Full Stack Development which includes HTML, CSS, JavaScript, React, Node, Express, MongoDB etc.",
+        "⚡ I with projetcs and interships for the course credits.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://study.iitm.ac.in/ds/",
     },
   ],
 };
@@ -447,14 +452,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+      title: "AI Programming with Python Nenodegree",
+      subtitle: "Udacity",
+      logo_path: "udacity_logo.png",
+      certificate_link: "https://graduation.udacity.com/confirm/VR4Y3PUG",
+      alt_name: "Udacity",
+      color_code: "#ffffff",
     },
+
+    // https://storage.googleapis.com/online-degree-app-production-documents/CERTIFICATE/FOUNDATION_CERTIFICATE/F2_2022/917c7068c2503b4804168f55d05cd1053f50809c5f1c6baff01b7b5b81d7d7d3.pdf?Expires=1686355414&GoogleAccessId=production-document-storage-si%40online-degree-app.iam.gserviceaccount.com&Signature=PECGaaduHMCDy57W1vMpxXgXi8VX%2Bv2HQjV9LvzKTHsIRA5dJzE5Q9ZuRx951GgNxVBP%2FwlD4x%2BgNndp9zzVQ6lqL2a0Omnd4KYUU5IWVQ%2BaFlQLsGvi4Nuzye9nIjoJIUbAOHEBfoqTLx6EAAp0NFF7T8nSQcaxQAWHtkdLwo%2FT0%2BJLPIaM9JOQV5HJYKF8fEu2cQjBBTKYXxg8ImUqz1tZ573TSTck5BhUwtnNnGaXhzuIBfrzN3WEDVbUF5FNCL%2BLLfFdRZXv63yoIFGItOCRGfbAJNVJPw2gZ3jN4GIH8kBnnaEmgPogh2CK5pY1r4KuTvuy1xOny0MvdJAyCw%3D%3D
     {
       title: "Deep Learning",
       subtitle: "- Andrew Ng",
@@ -562,53 +568,39 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Description of my work, internship and volunteership experience in my student jouney till now. [UPDATED June 2023]",
   header_image_path: "experience.svg",
-  sections: [
+  section: [
     {
-      title: "Work",
-      work: true,
+      title: "Work full term",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Web Developer",
+          company: "HiFi Vision India",
+          company_url: "https://www.hifivisionindia.com/",
+          logo_path: "hifivision_logo.png",
+          duration: "June 2021 - PRESENT",
+          location: "Work From Home",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "I am working as a web developer for the marketing team in HiFi Vision India. I am responsible for the development and maintenance of the website. I am also working on the SEO of the website.",
+          color: "#ee3c26",
         },
       ],
     },
+
     {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
+          title: "Open Source Contributor",
+          company: "GirlScript Summer of Code",
+          company_url: "https://www.gssoc.tech/",
+          logo_path: "gssoc_logo.png",
+          duration: "june 2023 - aug 2023",
+        },
+      
+        {
+          title: "",
           company: "TikTok Inc.",
           company_url: "https://www.tiktok.com/en/",
           logo_path: "tiktok_logo.png",
@@ -631,15 +623,12 @@ const experience = {
         },
         {
           title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
+          company: "Yoshops",
+          company_url: "https://yoshops.com/",
+          logo_path: "yoshops_logo.png",
+          duration: "july 2022 - sept 2022",
           location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
+          description: "",
         },
       ],
     },
